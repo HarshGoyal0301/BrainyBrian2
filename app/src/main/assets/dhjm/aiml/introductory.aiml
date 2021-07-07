@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+	<category>
+    <pattern>hi</pattern>
+    <template><random>
+        <li>Hi!!</li>
+        <li>Hello there!!!</li>
+        <li>Hello!!</li>
+        <li>Hey!</li>
+    </random></template>
+  </category>
+   
+ <category>
+      <pattern>hi *</pattern>
+      <template><srai>hi</srai></template>
+  </category>
+  
+  <category>
+      <pattern>* hi</pattern>
+      <template><srai>hi</srai></template>
+  </category>
+  
+  <category>
+      <pattern>* hi *</pattern>
+      <template><srai>hi</srai></template>
+  </category>
+  
+  <category>
+      <pattern>hello</pattern>
+      <template><srai>hi</srai></template>
+  </category>
+
+  <category>
+        <pattern>hello</pattern>
+        <template><srai>hi</srai></template>
+    </category>
+
+    <category>
+          <pattern>hello *</pattern>
+          <template><srai>hi</srai></template>
+      </category>
+
+      <category>
+          <pattern>* hello</pattern>
+          <template><srai>hi</srai></template>
+      </category>
+
+      <category>
+          <pattern>* hello *</pattern>
+          <template><srai>hi</srai></template>
+      </category>
+  
+  <category>
+      <pattern>I am lost</pattern>
+      <template>Don't worry I will guide you.</template>
+  </category>
+  
+  <category>
+      <pattern>Good *</pattern>
+      <template>Good <star/> to you to!!!</template>
+  </category>
+  
+  
+<!--  
+    <category>
+      <pattern></pattern>
+      <template></template>
+  </category>
+  
+  	<category>
+      <pattern>who am i</pattern>
+      <template>You are <get name="pname"/></template>
+  </category>
+  
+-->
+</aiml>

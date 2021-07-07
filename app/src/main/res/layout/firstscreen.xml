@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".firstscreen">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo_big"
+        android:transitionName="logo_image"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:layout_gravity="center"
+        android:text="Brainy Brian"
+        android:textAllCaps="true"
+        android:transitionName="logo_text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:text="Your personal memory backup"
+        android:transitionName="logo_desc"/>
+
+    <Button
+        android:id="@+id/firstscreen_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Can't Remember? Ask Me"
+        android:background="#006b3c"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:textAllCaps="true"
+        android:transitionName="button_tran"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="5dp"/>
+
+    <Button
+        android:id="@+id/firstscreen_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Info"
+        android:background="@color/white"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textAllCaps="true"
+        android:transitionName="button_tran"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="5dp"/>
+
+
+</LinearLayout>
